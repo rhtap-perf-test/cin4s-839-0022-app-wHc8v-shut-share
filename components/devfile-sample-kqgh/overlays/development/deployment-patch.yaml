@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-kqgh
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0022-tenant/cin4s-839-0022-app/devfile-sample-kqgh@sha256:d6674c485bd46ec9e328b9f1423810246b6cfff4d3f53852bc9bef550cbd461f
+        name: my-nodejs
+        resources: {}
+status: {}
